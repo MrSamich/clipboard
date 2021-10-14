@@ -9,11 +9,13 @@ module.exports = {
       fontSize: {
         '32fs' : '2rem',
         '7fs': '1.75rem',
+        '46fs': '2.875rem',
       },
       lineHeight:{
         '26lh': '1.625rem',
         '30lh': '1.875rem',
         '35lh': '2.188rem',
+        '57.5lh': '3.594rem',
       },
       letterSpacing:{
         '12ls': '0.007rem',
@@ -22,6 +24,8 @@ module.exports = {
         '.39ls': '-0.024rem',
         '.03ls': '0.007rem',
         '.035ls': '0.009rem',
+        '.75': '-0.047rem',
+        
       },
       borderRadius:{
         '7br': '1.75rem',

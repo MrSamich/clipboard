@@ -14,22 +14,26 @@
 </head>
 
 <body class="">
-  <img class="absolute w-full" src="./images/bg-header-mobile.png" alt="">
-  <div class="flex px-8 text-center flex-col items-center pt-32">
+  <img class="absolute w-full md:hidden" src="./images/bg-header-mobile.png" alt="">
+  <img class="absolute w-full sm:hidden md:block" src="./images/bg-header-desktop.png" alt="">
+  <div class="flex px-8 text-center flex-col items-center pt-32 md:pt-14">
     <img class="" src="./images/logo.svg" alt="">
 
-    <h1 class="pt-16 font-Bai text-32fs font-semibold leading-10"> A history of everything you copy</h1>
-    <p class="max-w-600mw font-Bai text-base font-normal leading-26lh tracking-12ls text-color1 pt-4">Clipboard allows
+    <h1 class="pt-16 font-Bai text-32fs md:text-46fs font-semibold leading-10 md:leading-57.5lh md:tracking-.75"> A history of everything you copy</h1>
+    <p class="max-w-600mw font-Bai text-base md:text-xl  font-normal md:leading-35lh leading-26lh tracking-12ls text-color1 pt-4">Clipboard allows
       you to
       track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-
+     
+      <div class="md:pt-12">
     <button
-      class="font-Bai block mt-12 px-12.5p py-13p tracking-.5ls rounded-7br text-lg leading-30lh font-semibold text-white bg-color2">Download
+      class="font-Bai md:mt-0 md:mr-2 mt-12 px-12.5p py-13p tracking-.5ls rounded-7br text-lg leading-30lh font-semibold text-white bg-color2">Download
       for iOS </button>
     <button
-      class="font-Bai block mt-6 px-12.5p py-13p tracking-.5ls rounded-7br text-lg leading-30lh font-semibold text-white bg-color3">Download
+      class="font-Bai md:mt-0 mt-6 md:ml-2 px-12.5p py-13p tracking-.5ls rounded-7br text-lg leading-30lh font-semibold text-white bg-color3">Download
       for Mac</button>
-    <h2 class="mt-40 font-Bai text-7fs font-semibold leading-35lh tracking-.46ls text-color4">Keep track of your
+    </div>
+    
+    <h2 class="mt-40 md:mt-36 font-Bai text-7fs font-semibold leading-35lh tracking-.46ls text-color4">Keep track of your
       snippets</h2>
 
     <p class="max-w-625mw font-Bai text-base font-normal leading-26lh tracking-12ls text-color1 pt-4"> Clipboard
