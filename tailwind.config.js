@@ -21,6 +21,7 @@ module.exports = {
         '.46ls': '-0.029rem',
         '.39ls': '-0.024rem',
         '.03ls': '0.007rem',
+        '.035ls': '0.009rem',
       },
       borderRadius:{
         '7br': '1.75rem',
@@ -30,6 +31,7 @@ module.exports = {
         "color2": "#26BBA4",
         "color3": "#6174FF",
         "color4": "#4C545C",
+      
       },
       maxWidth:{
         '600mw': '37.5rem',
@@ -42,6 +44,11 @@ module.exports = {
         '65p': '4.063rem',
         '186p': '11.625rem',
         '130p': '8.125rem',
+        '90p': '5.625rem',
+        '18p': '1.125rem',
+        '131p': '8.188rem',
+        '170p': '10.625rem',
+        '52p': '3.25rem',
       },
     },
   },
