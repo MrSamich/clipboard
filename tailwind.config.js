@@ -6,6 +6,10 @@ module.exports = {
       fontFamily:{
        'Bai': ['"Bai Jamjuree"']
       },
+      boxShadow:{
+        'boxshadow1': '0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333)',
+        'boxshadow2': '0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333)',
+      },
       fontSize: {
         '32fs' : '2rem',
         '7fs': '1.75rem',
@@ -40,6 +44,8 @@ module.exports = {
       maxWidth:{
         '600mw': '37.5rem',
         '625mw': '39.063rem',
+        '475mw': '29.688rem',
+
       },
       padding:{
         '13p': '0.813rem',
