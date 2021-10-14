@@ -20,6 +20,7 @@ module.exports = {
         '30lh': '1.875rem',
         '35lh': '2.188rem',
         '57.5lh': '3.594rem',
+        '45lh': '2.813rem',
       },
       letterSpacing:{
         '12ls': '0.007rem',
@@ -28,7 +29,10 @@ module.exports = {
         '.39ls': '-0.024rem',
         '.03ls': '0.007rem',
         '.035ls': '0.009rem',
-        '.75': '-0.047rem',
+        '.75ls': '-0.047rem',
+        '.59ls': '-0.037rem',
+        
+
         
       },
       borderRadius:{
@@ -45,6 +49,9 @@ module.exports = {
         '600mw': '37.5rem',
         '625mw': '39.063rem',
         '475mw': '29.688rem',
+        '300mw': '18.75rem',
+        '350mw': '21.875rem',
+        '700mw': '43.75rem',
 
       },
       padding:{
@@ -59,6 +66,7 @@ module.exports = {
         '131p': '8.188rem',
         '170p': '10.625rem',
         '52p': '3.25rem',
+        '19p': '1.188rem'
       },
     },
   },
